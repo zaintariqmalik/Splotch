@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Shop product</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,300italic,400,400italic,700,900%7CPlayfair+Display:700italic,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+		<!--[if lt IE 10]> 
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"> </script>
+		<![endif]--> 
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-loader page-loader-variant-1">
+        <div><a class="brand brand-md" href="index.html"><img src="images/logo-white.svg" width="139" height="22" alt="logo"/></a>
+          <div class="page-loader-body">
+            <div id="spinningSquaresG">
+              <div class="spinningSquaresG" id="spinningSquaresG_1"></div>
+              <div class="spinningSquaresG" id="spinningSquaresG_2"></div>
+              <div class="spinningSquaresG" id="spinningSquaresG_3"></div>
+              <div class="spinningSquaresG" id="spinningSquaresG_4"></div>
+              <div class="spinningSquaresG" id="spinningSquaresG_5"> </div>
+              <div class="spinningSquaresG" id="spinningSquaresG_6"></div>
+              <div class="spinningSquaresG" id="spinningSquaresG_7"></div>
+              <div class="spinningSquaresG" id="spinningSquaresG_8"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="page-head">
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-stick-up-clone="false" data-body-class="rd-navbar-static-smooth" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true" data-md-stick-up-offset="60px" data-lg-stick-up-offset="60px" data-xl-stick-up-offset="60px" data-xxl-stick-up-offset="60px">
+            <div class="rd-navbar-inner">
+              <div class="rd-navbar-panel">
+                <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap" data-custom-toggle-disable-on-blur="true"><span></span></button><a class="rd-navbar-brand brand" href="index.html"><img src="images/logo-black.svg" width="139" height="22" alt="logo"/></a>
+              </div>
+              <div class="rd-navbar-group rd-navbar-search-wrap">
+                <div class="rd-navbar-nav-wrap">
+                  <div class="rd-navbar-nav-inner">
+                    <div class="rd-navbar-search">
+                      <form class="rd-search" action="search-results.html" method="GET" data-search-live="rd-search-results-live">
+                        <div class="form-wrap">
+                          <label class="form-label" for="rd-search-form-input">Search...</label>
+                          <input class="form-input" id="rd-search-form-input" type="text" name="s" autocomplete="off">
+                          <div class="rd-search-results-live" id="rd-search-results-live"></div>
+                        </div>
+                        <button class="rd-search-submit" type="submit"></button>
+                      </form>
+                      <button class="rd-navbar-search-toggle" data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-search-wrap"></button>
+                    </div>
+                    <ul class="rd-navbar-nav">
+                      <li><a href="index.html">Home</a>
+                      </li>
+                      <li><a href="#">Features</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="extras.html">Extras</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Pages</a>
+                        <ul class="rd-navbar-megamenu">
+                          <li>
+                            <h5 class="rd-megamenu-header">Gallery</h5>
+                            <ul class="rd-navbar-list">
+                              <li><a href="gallery-grid.html">Grid gallery</a></li>
+                              <li><a href="gallery-masonry.html">Masonry gallery</a></li>
+                              <li><a href="gallery-cobbles.html">Cobbles gallery</a></li>
+                              <li><a href="gallery-item.html">Gallery item</a></li>
+                            </ul>
+                            <h5 class="rd-megamenu-header">Pages</h5>
+                            <ul class="rd-navbar-list">
+                              <li><a href="home.html">Home</a></li>
+                              <li><a href="about-us.html">About us</a></li>
+                              <li><a href="services.html">Services</a></li>
+                              <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <h5 class="rd-megamenu-header">Pages</h5>
+                            <ul class="rd-navbar-list">
+                              <li><a href="appointment.html">Appointment</a></li>
+                              <li><a href="clients.html">Clients</a></li>
+                              <li><a href="clients-testimonials.html">Clients testimonials</a></li>
+                              <li><a href="our-team.html">Our team</a></li>
+                              <li><a href="team-member-profile.html">Team member profile</a></li>
+                              <li><a href="careers.html">Careers</a></li>
+                              <li><a href="pricing.html">Pricing</a></li>
+                              <li><a href="faq.html">FAQ</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <h5 class="rd-megamenu-header">Extras</h5>
+                            <ul class="rd-navbar-list">
+                              <li><a href="404-page.html">404 Page</a></li>
+                              <li><a href="503-page.html">503 Page</a></li>
+                              <li><a href="maintenance.html">Maintenance</a></li>
+                              <li><a href="coming-soon.html">Coming soon</a></li>
+                              <li><a href="login.html">Login</a></li>
+                              <li><a href="register.html">Register</a></li>
+                              <li><a href="search-results.html">Search results</a></li>
+                              <li><a href="privacy-policy.html">Terms of use</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <h5 class="rd-megamenu-header">Layout</h5>
+                            <ul class="rd-navbar-list">
+                              <li><a href="header-default.html">Header Default</a></li>
+                              <li><a href="header-corporate-light.html">Header Corporate Light</a></li>
+                              <li><a href="header-corporate-dark.html">Header Corporate Dark</a></li>
+                              <li><a href="footer-default.html">Footer Default</a></li>
+                              <li><a href="footer-widget.html">Footer Widget</a></li>
+                              <li><a href="footer-corporate.html">Footer Corporate</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Portfolio</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="gallery-grid.html">Gallery grid</a>
+                          </li>
+                          <li><a href="gallery-masonry.html">Gallery masonry</a>
+                          </li>
+                          <li><a href="gallery-cobbles.html">Gallery cobbles</a>
+                          </li>
+                          <li><a href="gallery-item.html">Gallery item</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Blog</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="blog-classic.html">Blog classic</a>
+                          </li>
+                          <li><a href="blog-grid.html">Blog grid</a>
+                          </li>
+                          <li><a href="blog-line.html">Blog line</a>
+                          </li>
+                          <li><a href="blog-masonry.html">Blog masonry</a>
+                          </li>
+                          <li><a href="blog-post.html">Blog post</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="active"><a href="#">Shop</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="shop-list.html">Shop list</a>
+                          </li>
+                          <li><a href="shop-grid.html">Shop grid</a>
+                          </li>
+                          <li><a href="shop-product.html">Shop product</a>
+                          </li>
+                          <li><a href="shop-cart.html">Shop cart</a>
+                          </li>
+                          <li><a href="shop-checkout.html">Shop checkout</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Components</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="accordion.html">Accordion</a>
+                          </li>
+                          <li><a href="buttons.html">Buttons</a>
+                          </li>
+                          <li><a href="grid.html">Grid</a>
+                          </li>
+                          <li><a href="forms.html">Forms</a>
+                          </li>
+                          <li><a href="icons.html">Icons</a>
+                          </li>
+                          <li><a href="icon-lists.html">Icon lists</a>
+                          </li>
+                          <li><a href="progress-bars.html">Progress bars</a>
+                          </li>
+                          <li><a href="tabs.html">Tabs</a>
+                          </li>
+                          <li><a href="table-styles.html">Table styles</a>
+                          </li>
+                          <li><a href="typography.html">Typography</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rd-navbar-shop"><a class="novi-icon link-shop material-icons-shopping_cart" href="shop-cart.html"></a></div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <section class="section section-30 section-xxl-40 section-xxl-66 section-xxl-bottom-90 novi-background bg-gray-dark page-title-wrap" style="background-image: url(images/bg-shop.jpg);">
+        <div class="container">
+          <div class="page-title">
+            <h2>Shop</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-50 section-md-75 section-xl-bottom-120">
+        <div class="container">
+          <div class="row justify-content-xl-center">
+            <div class="col-xl-10">
+              <div class="product product-single">
+                <div class="product-main">
+                  <div class="product-slider">
+                    <div class="owl-carousel owl-carousel-bottom owl-style-minimal" data-items="1" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                      <div class="item"><img src="images/product-01-346x721.png" alt="" width="346" height="721"/>
+                      </div>
+                      <div class="item"><img src="images/product-01-364x720-2.png" alt="" width="364" height="720"/>
+                      </div>
+                      <div class="item"><img src="images/product-01-352x720-3.png" alt="" width="352" height="720"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-body">
+                    <p class="product-brand">Tommy Hilfiger</p>
+                    <h4 class="product-header">Engineered Rib Cashmere</h4>
+                    <div class="product-rating">
+                      <ul class="list-rating">
+                        <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                        <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                        <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                        <li><span class="novi-icon icon icon-xxs material-icons-star_half"></span></li>
+                        <li><span class="novi-icon icon icon-xxs material-icons-star_border"></span></li>
+                      </ul><span class="font-weight-light">4 customer reviews</span>
+                    </div>
+                    <div class="card-group card-group-custom card-group-light product-accordion" id="accordionOne" role="tablist" aria-multiselectable="true">
+                      <div class="card card-custom card-light">
+                        <div class="card-heading" id="accordionOneHeading1" role="tab">
+                          <div class="card-title"><a role="button" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse1" aria-controls="accordionOneCollapse1" aria-expanded="true">Description
+                              <div class="card-arrow"> </div></a></div>
+                        </div>
+                        <div class="card-collapse collapse show" id="accordionOneCollapse1" role="tabpanel" aria-labelledby="accordionOneHeading1">
+                          <div class="card-body">
+                            <p>Rely on this gorgeous Engineered Rib Cashmere from Tommy Hilfiger to keep you cosy for years to come. An essential wardrobe investment, this timeless design adds a new texture to your winter layers.  This is a classic design that will never fade.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card card-custom card-light">
+                        <div class="card-heading" id="accordionOneHeading2" role="tab">
+                          <div class="card-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse2" aria-controls="accordionOneCollapse2" aria-expanded="false">Size &amp; Fit
+                              <div class="card-arrow"> </div></a></div>
+                        </div>
+                        <div class="card-collapse collapse" id="accordionOneCollapse2" role="tabpanel" aria-labelledby="accordionOneHeading2">
+                          <div class="card-body">
+                            <p>17.25\" bust <br> 14\" shoulder to shoulder <br> 32.25\" shoulder to hem <br> Measurements taken from size small <br> Model wears size small. Model is 5'9 <br> This dress fits true to size</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card card-custom card-light">
+                        <div class="card-heading" id="accordionOneHeading3" role="tab">
+                          <div class="card-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionOne" href="#accordionOneCollapse3" aria-controls="accordionOneCollapse3" aria-expanded="false">Delivery &amp; Returns
+                              <div class="card-arrow"> </div></a></div>
+                        </div>
+                        <div class="card-collapse collapse" id="accordionOneCollapse3" role="tabpanel" aria-labelledby="accordionOneHeading3">
+                          <div class="card-body">
+                            <p>We deliver our goods worldwide. No matter where you live, your order will be shipped in time and delivered right to your door or to any other location you have stated. The packages are handled with utmost care, so the ordered products will be handed to you safe and sound, just like you expect them to be.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <ul class="product-info">
+                      <li>
+                        <dl>
+                          <dt>Colors</dt>
+                          <dd>
+                            <div class="form-wrap form-wrap-color form-wrap-modern">
+                              <label class="radio-inline">
+                                <input class="radio-custom" name="input-group-radio-color" value="color-1" type="radio" checked=""><span class="radio-control" style="background-color: #1b3164;"></span>
+                              </label>
+                              <label class="radio-inline">
+                                <input class="radio-custom" name="input-group-radio-color" value="color-2" type="radio"><span class="radio-control" style="background-color: #92909f;"></span>
+                              </label>
+                              <label class="radio-inline">
+                                <input class="radio-custom" name="input-group-radio-color" value="color-3" type="radio"><span class="radio-control" style="background-color: #f3f1f2;"></span>
+                              </label>
+                            </div>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt>Size</dt>
+                          <dd>
+                            <div class="form-wrap form-wrap-size form-wrap-modern">
+                              <label class="radio-inline">
+                                <input class="radio-custom radio-product-size" name="input-group-radio-size" value="size-1" type="radio"><span class="radio-control">XXL</span>
+                              </label>
+                              <label class="radio-inline">
+                                <input class="radio-custom radio-product-size" name="input-group-radio-size" value="size-2" type="radio"><span class="radio-control">XL</span>
+                              </label>
+                              <label class="radio-inline">
+                                <input class="radio-custom radio-product-size" name="input-group-radio-size" value="size-3" type="radio"><span class="radio-control">L</span>
+                              </label>
+                              <label class="radio-inline">
+                                <input class="radio-custom radio-product-size" name="input-group-radio-size" value="size-4" type="radio"><span class="radio-control">M</span>
+                              </label>
+                              <label class="radio-inline">
+                                <input class="radio-custom radio-product-size" name="input-group-radio-size" value="size-5" type="radio" checked=""><span class="radio-control">S</span>
+                              </label>
+                              <label class="radio-inline">
+                                <input class="radio-custom radio-product-size" name="input-group-radio-size" value="size-6" type="radio"><span class="radio-control">XS</span>
+                              </label>
+                            </div>
+                          </dd>
+                        </dl>
+                      </li>
+                      <li>
+                        <dl>
+                          <dt>Quantity</dt>
+                          <dd>
+                            <div class="stepper-lg">
+                              <input type="number" data-zeros="false" value="1" min="1" max="40">
+                            </div>
+                          </dd>
+                        </dl>
+                      </li>
+                    </ul>
+                    <div class="product-panel">
+                      <div class="pricing-wrap">
+                        <div class="pricing-object pricing-object-md"><span class="small small-middle">$</span><span class="price">35</span><span class="small small-bottom">.00</span></div><span class="price-irrelevant">49.99</span>
+                      </div><a class="button button-icon button-icon-left button-primary product-control" href="shop-cart.html"><span class="novi-icon icon icon-sm fa-shopping-cart"></span><span>Add to cart</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <div class="tabs-custom tabs-vertical tabs-corporate" id="tabs-1">
+                    <ul class="nav nav-tabs">
+                      <li><a class="nav-link active" href="#tabs-1-1" data-toggle="tab">Additional Information</a></li>
+                      <li><a class="nav-link" href="#tabs-1-2" data-toggle="tab">Video Review</a></li>
+                      <li><a class="nav-link" href="#tabs-1-3" data-toggle="tab">Customer Reviews</a></li>
+                      <li><a class="nav-link" href="#tabs-1-4" data-toggle="tab">Comments</a></li>
+                    </ul>
+                    <div class="tab-content text-secondary">
+                      <div class="tab-pane fade show active" id="tabs-1-1">
+                        <p>Fashion has always been so temporary and uncertain. You can’t keep up with it. This social phenomenon is very whimsical, thus we as the consumers always try to stay in touch with all the latest fashion tendencies.</p>
+                      </div>
+                      <div class="tab-pane fade" id="tabs-1-2">
+                        <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/NN6zt1sF73w" allowfullscreen></iframe></div>
+                      </div>
+                      <div class="tab-pane fade" id="tabs-1-3">
+                        <h5>4 Customer Reviews</h5>
+                        <blockquote class="quote-review">
+                          <div class="quote-header">
+                            <cite>John Doe</cite>
+                            <ul class="list-rating">
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star_half"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star_border"></span></li>
+                            </ul>
+                          </div>
+                          <div class="quote-body">
+                            <q>Eius munere cum no. Alia ridens corpora ea his. Sed etiam ignota eu. Vidisse legendos pro ad, numquam voluptatibus per ut, his quot prompta ad. Ius malis movet ea. Altera dissentiunt ut pro, mundi ignota ad sed.</q>
+                          </div>
+                        </blockquote>
+                        <blockquote class="quote-review">
+                          <div class="quote-header">
+                            <cite>Alex Ross</cite>
+                            <ul class="list-rating">
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                            </ul>
+                          </div>
+                          <div class="quote-body">
+                            <q>Qui an veri illum incorrupte. Cu has assum laboramus gloriatur, mea ea meis ferri definitionem, quod percipit evertitur ad qui. Altera omittam moderatius id vis, at vix quod bonorum dolorum. Ei pro graecis reformidans, nisl percipitur ullamcorper vis eu.</q>
+                          </div>
+                        </blockquote>
+                        <blockquote class="quote-review">
+                          <div class="quote-header">
+                            <cite>Diana Roe</cite>
+                            <ul class="list-rating">
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star_border"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star_border"></span></li>
+                            </ul>
+                          </div>
+                          <div class="quote-body">
+                            <q>Eius munere cum no. Alia ridens corpora ea his. Sed etiam ignota eu. Vidisse legendos pro ad, numquam voluptatibus per ut, his quot prompta ad. Ius malis movet ea. Altera dissentiunt ut pro, mundi ignota ad sed.</q>
+                          </div>
+                        </blockquote>
+                        <blockquote class="quote-review">
+                          <div class="quote-header">
+                            <cite>Sara Cole</cite>
+                            <ul class="list-rating">
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star_half"></span></li>
+                              <li><span class="novi-icon icon icon-xxs material-icons-star_border"></span></li>
+                            </ul>
+                          </div>
+                          <div class="quote-body">
+                            <q>No sit case indoctum, ad dicta singulis deterruisset vel. Mea ne nusquam corpora percipit, at ponderum rationibus sea, ubique invenire adolescens pri cu. Est maiorum omittantur ei. Et pro nisl insolens tincidunt, nam equidem maiorum tincidunt eu, magna tibique id vim</q>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <div class="tab-pane fade" id="tabs-1-4">
+                        <article class="comment-minimal">
+                          <div class="comment-header">
+                            <p class="author">martha Perkins</p>
+                          </div>
+                          <div class="comment-body">
+                            <p>I wanted to say thank you for the amazing product and for the fast processing and delivery. It was impressive, you weren't kidding. I was surprised with such an excellent quality. I am very happy with my purchase. </p>
+                          </div>
+                        </article>
+                        <article class="comment-minimal">
+                          <div class="comment-header">
+                            <p class="author">Ann Johnson</p>
+                          </div>
+                          <div class="comment-body">
+                            <p>I loved everything about buying from you! My purchase was carefully packaged and quickly shipped. I was also pleased with great service and delivery times. There is no such awesome store on the web that can match you.</p>
+                          </div>
+                        </article>
+                        <h5>Leave a Comment</h5>
+                        <form class="rd-mailform form-modern" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                          <div class="row row-30">
+                            <div class="col-md-6">
+                              <div class="form-wrap">
+                                <label class="form-label" for="contact-email">Email</label>
+                                <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                              </div>
+                            </div>
+                            <div class="col-sm-12">
+                              <div class="form-wrap">
+                                <div class="textarea-lined-wrap">
+                                  <label class="form-label" for="contact-message">Message</label>
+                                  <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required" style="height: 102px;"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12">
+                              <button class="min-width-1 button button-primary" type="submit">Submit</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-50 section-md-90 bg-whisper novi-background">
+        <div class="container">
+          <div class="row justify-content-xl-center">
+            <div class="col-xl-10 text-center text-md-left">
+              <h3>Related Products</h3>
+            </div>
+          </div>
+          <div class="row row-30">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="product product-item-default">
+                <div class="product-slider">
+                  <div class="product-slider-inner">
+                    <div class="owl-carousel owl-style-minimal" data-items="1" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                      <div class="item">
+                        <figure><img src="images/product-01-270x360.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-01-270x360-2.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-01-270x360-3.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-badge-wrap product-badge-wrap-left">
+                  <div class="badge-custom product-badge badge-danger">Sale</div>
+                </div>
+                <div class="product-main">
+                  <h6 class="product-header"><a href="shop-product.html">Engineered Rib Cashmere</a></h6>
+                  <p class="product-brand">Tommy Hilfiger</p>
+                </div>
+                <div class="product-footer">
+                  <div class="product-footer-front pricing-wrap">
+                    <p class="price-irrelevant">49.99</p>
+                    <p class="pricing-object pricing-object-sm price-current"><span class="small small-middle">$</span><span class="price">35</span><span class="small small-bottom">.00</span></p>
+                  </div>
+                  <div class="product-footer-behind"><a class="button button-icon button-icon-left button-primary product-control" href="shop-cart.html"><span class="novi-icon icon icon-sm fa-shopping-cart"></span><span>Add to cart</span></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="product product-item-default">
+                <div class="product-slider">
+                  <div class="product-slider-inner">
+                    <div class="owl-carousel owl-style-minimal" data-items="1" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                      <div class="item">
+                        <figure><img src="images/product-02-270x360.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-02-270x360-2.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-02-270x360-3.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-badge-wrap product-badge-wrap-right">
+                  <div class="badge-custom product-badge badge-info">New</div>
+                </div>
+                <div class="product-main">
+                  <h6 class="product-header"><a href="shop-product.html">Twisted Sweater</a></h6>
+                  <p class="product-brand">Adidas</p>
+                </div>
+                <div class="product-footer">
+                  <div class="product-footer-front pricing-wrap">
+                    <p class="price-irrelevant">99.00</p>
+                    <p class="pricing-object pricing-object-sm price-current"><span class="small small-middle">$</span><span class="price">59</span><span class="small small-bottom">.89</span></p>
+                  </div>
+                  <div class="product-footer-behind"><a class="button button-icon button-icon-left button-primary product-control" href="shop-cart.html"><span class="novi-icon icon icon-sm fa-shopping-cart"></span><span>Add to cart</span></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="product product-item-default">
+                <div class="product-slider">
+                  <div class="product-slider-inner">
+                    <div class="owl-carousel owl-style-minimal" data-items="1" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                      <div class="item">
+                        <figure><img src="images/product-03-270x360.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-03-270x360-2.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-03-270x360-3.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-main">
+                  <h6 class="product-header"><a href="shop-product.html">Knit Cami Top</a></h6>
+                  <p class="product-brand">Paco Rabane</p>
+                </div>
+                <div class="product-footer">
+                  <div class="product-footer-front pricing-wrap">
+                    <p class="price-irrelevant">99.00</p>
+                    <p class="pricing-object pricing-object-sm price-current"><span class="small small-middle">$</span><span class="price">19</span><span class="small small-bottom">.89</span></p>
+                  </div>
+                  <div class="product-footer-behind"><a class="button button-icon button-icon-left button-primary product-control" href="shop-cart.html"><span class="novi-icon icon icon-sm fa-shopping-cart"></span><span>Add to cart</span></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div class="product product-item-default">
+                <div class="product-slider">
+                  <div class="product-slider-inner">
+                    <div class="owl-carousel owl-style-minimal" data-items="1" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                      <div class="item">
+                        <figure><img src="images/product-06-270x360.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-06-270x360-2.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                      <div class="item">
+                        <figure><img src="images/product-06-270x360-3.png" alt="" width="270" height="360"/>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-main">
+                  <h6 class="product-header"><a href="shop-product.html">Knit Skater Skirt</a></h6>
+                  <p class="product-brand">Armani</p>
+                </div>
+                <div class="product-footer">
+                  <div class="product-footer-front pricing-wrap">
+                    <p class="price-irrelevant">22.00</p>
+                    <p class="pricing-object pricing-object-sm price-current"><span class="small small-middle">$</span><span class="price">14</span><span class="small small-bottom">.00</span></p>
+                  </div>
+                  <div class="product-footer-behind"><a class="button button-icon button-icon-left button-primary product-control" href="shop-cart.html"><span class="novi-icon icon icon-sm fa-shopping-cart"></span><span>Add to cart</span></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-40 section-md-top-75 section-md-bottom-60 bg-cod-gray novi-background">
+        <div class="container text-center text-md-left">
+          <div class="row row-30 align-items-md-center justify-content-lg-center justify-content-xl-start">
+            <div class="col-lg-11 col-xl-3"><a class="brand" href="index.html"><img src="images/logo-white.svg" width="139" height="22" alt="logo"/></a></div>
+            <div class="col-md-7 col-lg-6 col-xl-5">
+              <div class="wrap-justify">
+                <address class="contact-info text-left">
+                  <div class="unit unit-horizontal unit-spacing-xs align-items-center justify-content-center unit-sm-left">
+                    <div class="unit-left"><span class="novi-icon icon icon-md-custom icon-gunsmoke material-icons-place"></span></div>
+                    <div class="unit-body font-weight-light"><a class="link-light-03 d-inline" href="#">17/11 MassiveAttack Street<br>Bristol, United Kingdom</a></div>
+                  </div>
+                </address>
+                <address class="contact-info text-left">
+                  <div class="unit unit-horizontal unit-spacing-xs align-items-center justify-content-center unit-sm-left">
+                    <div class="unit-left"><span class="novi-icon icon icon-md-custom icon-gunsmoke material-icons-phone"></span></div>
+                    <div class="unit-body font-weight-light">
+                      <div class="link-wrap"><a class="link-light-03" href="callto:#">+123 234 984 47 45</a></div>
+                      <div class="link-wrap"><a class="link-light-03" href="mailto:#">info@demolink.com</a></div>
+                    </div>
+                  </div>
+                </address>
+              </div>
+            </div>
+            <div class="col-md-5 col-xl-4 text-lg-center"> 
+              <ul class="list-inline list-inline-xs">
+                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-facebook" href="#"></a></li>
+                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-twitter" href="#"></a></li>
+                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-google-plus" href="#"></a></li>
+                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-linkedin" href="#"></a></li>
+                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-skype" href="#"></a></li>
+                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-vine" href="#"> </a></li>
+                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-youtube" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="page-foot page-foot-default section-35 bg-black novi-background text-center">
+        <div class="container">
+          <p class="rights small"><span>Starbis</span><span>&nbsp;&#169;&nbsp;</span><span class="copyright-year"></span><span>All Rights Reserved</span><br class="d-md-none"><a class="link-primary" href="#">Terms of Use</a><span>and</span><a class="link-primary" href="privacy-policy.html">Privacy Policy</a></p>
+        </div>
+      </footer>
+
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
